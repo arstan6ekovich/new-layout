@@ -1,0 +1,92 @@
+.Footer {
+  .content {
+    height: 350px;
+    .nav {
+      margin-left: 40px;
+      margin-top: 80px;
+      .py1 {
+        /* Lorem ipsum is place */
+        width: 352px;
+        height: 96px;
+        right: 68.12%;
+        bottom: 91px;
+        color: rgb(155, 169, 180);
+        font-family: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        text-align: left;
+      }
+      @media (max-width: 606px) {
+        margin-left: 10px;
+      }
+
+      .py2 {
+        /* © 2020 Open PRO. All */
+        width: 218px;
+        height: 22px;
+        left: 0%;
+        right: 80.25%;
+        top: 205px;
+        bottom: 6px;
+        font-family: normal;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+    .block {
+        display: flex;
+        justify-content: end;
+        gap: 80px;
+        margin-top: -120px;
+      .blocks {
+        font-family: normal;
+        h2 {
+          /* Products */
+          width: 61px;
+          height: 22px;
+          left: 0%;
+          right: 54.48%;
+          top: 0;
+          bottom: 78px;
+          color: rgb(217, 227, 234);
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+        p {
+          /* DynamicBox Flex */
+          width: 113px;
+          color: rgb(155, 169, 180);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+    @media (max-width: 606px) {
+        .block {
+            margin-top: 100px;
+            height: 300px;
+        }
+    }
+
+    img {
+        margin-left: 980px;
+        margin-top: 80px;
+    }
+    @media (max-width: 606px) {
+      img {
+        margin-left:100px;
+      }  
+    }
+  }
+}
